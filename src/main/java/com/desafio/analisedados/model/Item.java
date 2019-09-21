@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
+@Builder
 public class Item {
 
     private Long id;

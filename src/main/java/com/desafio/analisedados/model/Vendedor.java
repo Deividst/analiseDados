@@ -7,6 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
+@Builder
 public class Vendedor {
 
     private String cpf;

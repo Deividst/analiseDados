@@ -7,6 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
+@Builder
 public class Cliente {
 
     private String cnpj;

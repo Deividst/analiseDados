@@ -12,19 +12,13 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.List;
 
 @SpringBootApplication
 public class AnaliseDadosApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(AnaliseDadosApplication.class, args);
-        try {
-            FileUtil.createFolder(PathConfig.PATH_IN);
-            Path teste = Paths.get(PathConfig.PATH_IN + File.separator + "teste.txt");
-            System.out.println(FileUtil.readFile(teste));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
 }
